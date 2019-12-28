@@ -16,7 +16,7 @@
             $("#someid").load("./someviee.html")
             $("#clickBtn").on("click", () => {
                 //const URL = "http://localhost:9999/diabetic/ED2019032400001"
-                const URL = "http://localhost:9999/welcome"
+                const URL = "http://192.168.56.113:9999/welcome"
                 $.get(URL, function(data) {
                     console.log(data)
                     $("#resultArea").html(data)
